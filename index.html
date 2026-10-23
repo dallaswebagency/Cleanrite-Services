@@ -1,0 +1,765 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cleanrite Services | Commercial Cleaning in Medicine Hat, AB</title>
+<meta name="description" content="Cleanrite Services has kept Medicine Hat offices, plants and storefronts clean for over 25 years. Insured, bonded, flexible schedules and a real quality control program.">
+<link rel="icon" href="https://cleanriteservices.ca/wp-content/uploads/2019/01/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Cleanrite Services","url":"https://cleanriteservices.ca/","telephone":"+1-403-529-1760","email":"info@cleanriteservices.ca","address":{"@type":"PostalAddress","streetAddress":"87 South West Dr SW","addressLocality":"Medicine Hat","addressRegion":"AB","postalCode":"T1A 8E8","addressCountry":"CA"}}
+</script>
+<style>
+:root{
+  --blue:#005898;
+  --navy:#06294A;
+  --deep:#041B33;
+  --teal:#00A8A8;
+  --teal-d:#007E83;
+  --mint:#E6F5F5;
+  --paper:#F7FAFB;
+  --ink:#0B1F33;
+  --muted:#4F6378;
+  --line:#D6E2E9;
+  --white:#fff;
+  --r:18px;
+  --head:'Bricolage Grotesque',system-ui,sans-serif;
+  --body:'Hanken Grotesk',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.6;font-size:17px;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+h1,h2,h3{font-family:var(--head);line-height:1.05;letter-spacing:-.02em}
+.wrap{width:min(1200px,100% - 48px);margin-inline:auto}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-d)}
+.eyebrow::before{content:"";width:34px;height:4px;border-radius:4px;background:linear-gradient(90deg,var(--blue) 0 55%,var(--teal) 55% 100%)}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 26px;border-radius:999px;font-weight:700;font-size:.98rem;transition:transform .2s,box-shadow .2s,background .2s}
+.btn svg{width:18px;height:18px}
+.btn-primary{background:var(--blue);color:#fff;box-shadow:0 10px 24px -10px rgba(0,88,152,.7)}
+.btn-primary:hover{background:var(--navy);transform:translateY(-2px)}
+.btn-ghost{border:2px solid var(--navy);color:var(--navy)}
+.btn-ghost:hover{background:var(--navy);color:#fff}
+.btn-teal{background:var(--teal);color:var(--deep)}
+.btn-teal:hover{background:#fff;transform:translateY(-2px)}
+:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+
+/* top bar */
+.topbar{background:var(--deep);color:#cfe3ee;font-size:.86rem}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:9px}
+.topbar a:hover{color:#fff}
+.topbar .left,.topbar .right{display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.topbar svg{width:14px;height:14px;margin-right:6px;vertical-align:-2px;color:var(--teal)}
+
+/* header */
+header.site{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-block:12px}
+.logo img{height:54px;width:auto}
+nav.main ul{display:flex;gap:6px;list-style:none;align-items:center}
+nav.main a{display:block;padding:10px 14px;font-weight:600;font-size:.95rem;border-radius:999px;color:var(--navy)}
+nav.main a:hover{background:var(--mint)}
+.menu-btn{display:none;width:46px;height:46px;border-radius:12px;border:1.5px solid var(--line);align-items:center;justify-content:center}
+.menu-btn svg{width:22px;height:22px}
+
+/* hero */
+.hero{position:relative;padding:64px 0 96px;background:
+  linear-gradient(180deg,#fff 0,#fff 55%,var(--paper) 100%);overflow:hidden}
+.hero::before{content:"";position:absolute;right:-8%;top:-12%;width:62%;height:130%;background:
+  repeating-linear-gradient(115deg,transparent 0 46px,rgba(0,168,168,.10) 46px 70px);transform:skewX(-8deg);pointer-events:none}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.08fr .92fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(2.7rem,5.6vw,4.9rem);font-weight:800;color:var(--navy);margin:22px 0 22px}
+.hero h1 em{font-style:normal;color:var(--teal-d);position:relative;white-space:nowrap}
+.hero h1 em::after{content:"";position:absolute;left:0;right:0;bottom:-.04em;height:.14em;background:linear-gradient(90deg,var(--teal),var(--blue));border-radius:6px;transform:skewX(-18deg)}
+.hero p.lead{font-size:1.2rem;color:var(--muted);max-width:34em}
+.hero .cta{display:flex;flex-wrap:wrap;gap:14px;margin:34px 0 34px}
+.ticks{display:flex;flex-wrap:wrap;gap:12px 26px;list-style:none;font-weight:600;font-size:.95rem;color:var(--navy)}
+.ticks li{display:flex;align-items:center;gap:9px}
+.ticks svg{width:20px;height:20px;color:var(--teal-d);flex:none}
+.hero-art{position:relative;padding:0 0 40px 40px}
+.frame{position:relative;border-radius:var(--r) var(--r) 120px var(--r);overflow:hidden;aspect-ratio:3/4;background:linear-gradient(160deg,var(--blue),var(--teal));box-shadow:0 40px 70px -30px rgba(6,41,74,.55)}
+.frame img{width:100%;height:100%;object-fit:cover}
+.frame::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(4,27,51,.45))}
+.swoosh{position:absolute;left:0;bottom:6px;width:62%;height:90px;z-index:0}
+.swoosh i{position:absolute;left:0;height:12px;border-radius:12px;transform:skewX(-28deg)}
+.swoosh i:nth-child(1){top:0;width:100%;background:var(--teal)}
+.swoosh i:nth-child(2){top:22px;width:82%;background:var(--blue)}
+.swoosh i:nth-child(3){top:44px;width:60%;background:var(--teal);opacity:.55}
+.report{position:absolute;left:-6px;bottom:0;z-index:2;width:min(310px,78%);background:#fff;border-radius:16px;padding:20px 22px;box-shadow:0 24px 50px -18px rgba(4,27,51,.45);border:1px solid var(--line)}
+.report h4{font-family:var(--head);font-size:.98rem;color:var(--navy);display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.report h4 span{font-family:var(--body);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.report ul{list-style:none;display:grid;gap:9px;font-size:.92rem;font-weight:600}
+.report li{display:flex;gap:10px;align-items:center}
+.report li svg{width:18px;height:18px;color:#fff;background:var(--teal);border-radius:50%;padding:3px;flex:none}
+.stamp{position:absolute;right:-6px;top:26px;z-index:2;width:118px;height:118px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-content:center;text-align:center;transform:rotate(10deg);border:4px solid #fff;box-shadow:0 16px 30px -12px rgba(4,27,51,.6)}
+.stamp b{font-family:var(--head);font-size:2.2rem;line-height:1}
+.stamp span{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#9fdede}
+
+/* sectors */
+.sectors{padding:30px 0 100px}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:30px;flex-wrap:wrap;margin-bottom:36px}
+.sec-head h2{font-size:clamp(2rem,4vw,3.2rem);color:var(--navy);max-width:14em;margin-top:14px}
+.sec-head p{max-width:27em;color:var(--muted)}
+.panels{display:flex;gap:14px;height:520px}
+.panel{position:relative;flex:1;border-radius:var(--r);overflow:hidden;background:linear-gradient(150deg,var(--navy),var(--blue));color:#fff;transition:flex .55s cubic-bezier(.2,.8,.2,1);cursor:pointer;isolation:isolate}
+.panel.open{flex:2.6}
+.panel img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .8s}
+.panel.open img{transform:scale(1.05)}
+.panel::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(4,27,51,.15) 20%,rgba(4,27,51,.88))}
+.panel .in{position:absolute;left:0;right:0;bottom:0;padding:30px}
+.panel .n{font-family:var(--head);font-weight:800;color:var(--teal);font-size:1rem;letter-spacing:.1em}
+.panel h3{font-size:clamp(1.5rem,2.4vw,2.2rem);margin:6px 0 8px}
+.panel p{max-width:26em;color:#d7e7f1;max-height:0;opacity:0;overflow:hidden;transition:max-height .5s,opacity .4s .1s}
+.panel.open p{max-height:140px;opacity:1}
+.panel .more{display:inline-flex;gap:8px;align-items:center;margin-top:14px;font-weight:700;font-size:.92rem;color:#fff;max-height:0;opacity:0;overflow:hidden;transition:max-height .4s,opacity .4s .1s}
+.panel.open .more{max-height:40px;opacity:1}
+.panel .more svg{width:16px;height:16px}
+
+/* story */
+.story{background:var(--mint);position:relative;padding:100px 0;overflow:hidden}
+.story::before{content:"";position:absolute;left:-10%;bottom:-30%;width:70%;height:90%;background:repeating-linear-gradient(115deg,transparent 0 40px,rgba(0,88,152,.06) 40px 62px);transform:skewX(-8deg)}
+.story .wrap{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.story h2{font-size:clamp(2.1rem,4.2vw,3.5rem);color:var(--navy);margin:14px 0 22px}
+.story p{color:var(--muted);margin-bottom:14px;max-width:34em}
+.ledger{display:grid;grid-template-columns:1fr 1fr;margin-top:34px;border-top:2px solid var(--navy)}
+.ledger div{padding:20px 20px 18px 0;border-bottom:1px solid rgba(6,41,74,.2)}
+.ledger div:nth-child(odd){border-right:1px solid rgba(6,41,74,.2)}
+.ledger div:nth-child(even){padding-left:24px}
+.ledger b{font-family:var(--head);font-size:clamp(2.4rem,4vw,3.4rem);color:var(--blue);line-height:1;display:block}
+.ledger span{font-size:.92rem;color:var(--ink);font-weight:600}
+.story-art{position:relative;padding:0 30px 30px 0}
+.story-art .photo{border-radius:var(--r);overflow:hidden;aspect-ratio:4/3;background:linear-gradient(150deg,var(--blue),var(--teal));box-shadow:0 30px 60px -28px rgba(6,41,74,.5);position:relative;z-index:1}
+.story-art .photo img{width:100%;height:100%;object-fit:cover}
+.story-art::after{content:"";position:absolute;right:0;bottom:0;width:78%;height:78%;border-radius:var(--r);background:repeating-linear-gradient(115deg,var(--teal) 0 10px,transparent 10px 24px);opacity:.5}
+.quote-chip{position:absolute;left:-26px;bottom:6px;z-index:2;background:var(--navy);color:#fff;border-radius:14px;padding:16px 20px;max-width:250px;font-family:var(--head);font-size:1.05rem;line-height:1.25;box-shadow:0 20px 40px -16px rgba(4,27,51,.7)}
+.quote-chip small{display:block;margin-top:6px;font-family:var(--body);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:#8fd6d6;font-weight:700}
+
+/* services index */
+.services{padding:110px 0}
+.svc-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:70px;align-items:start}
+.svc-list{list-style:none;border-top:2px solid var(--navy)}
+.svc{width:100%;text-align:left;display:grid;grid-template-columns:54px 1fr 28px;gap:6px 14px;align-items:center;padding:22px 4px;border-bottom:1px solid var(--line);transition:padding .3s,background .3s}
+.svc .no{font-family:var(--head);font-weight:800;color:var(--teal-d);font-size:.95rem}
+.svc .t{font-family:var(--head);font-weight:700;font-size:clamp(1.3rem,2.2vw,1.8rem);color:var(--navy);letter-spacing:-.01em;line-height:1.1}
+.svc .ar{width:26px;height:26px;color:var(--navy);transition:transform .3s}
+.svc .sub{grid-column:2;color:var(--muted);font-size:.97rem}
+.svc .more{grid-column:2;max-height:0;overflow:hidden;opacity:0;transition:max-height .45s,opacity .35s;color:var(--ink);font-size:.97rem}
+.svc .more a{display:inline-block;margin-top:10px;font-weight:700;color:var(--blue);border-bottom:2px solid var(--teal)}
+.svc .mimg{display:none}
+li.active .svc{padding-left:14px;background:linear-gradient(90deg,var(--mint),transparent)}
+li.active .svc .ar{transform:rotate(-45deg);color:var(--teal-d)}
+li.active .svc .more{max-height:260px;opacity:1;margin-top:8px}
+.svc-panel{position:sticky;top:110px}
+.svc-panel figure{position:relative;border-radius:var(--r) var(--r) 110px var(--r);overflow:hidden;aspect-ratio:4/5;background:linear-gradient(160deg,var(--blue),var(--teal));box-shadow:0 36px 64px -30px rgba(6,41,74,.55)}
+.svc-panel img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .35s}
+.svc-panel figcaption{position:absolute;left:0;right:0;bottom:0;padding:70px 26px 24px;background:linear-gradient(180deg,transparent,rgba(4,27,51,.9));color:#fff;font-family:var(--head);font-size:1.5rem;font-weight:700}
+.svc-panel .tag{position:absolute;top:-16px;left:-16px;z-index:2;background:var(--teal);color:var(--deep);border-radius:12px;padding:10px 16px;font-weight:700;font-size:.85rem;box-shadow:0 14px 26px -12px rgba(0,126,131,.7)}
+
+/* signature */
+.signature{background:var(--deep);color:#fff;padding:100px 0;position:relative;overflow:hidden}
+.signature::before{content:"";position:absolute;right:-10%;top:-20%;width:60%;height:140%;background:repeating-linear-gradient(115deg,transparent 0 48px,rgba(0,168,168,.07) 48px 74px);transform:skewX(-8deg)}
+.signature .wrap{position:relative}
+.signature .sec-head h2{color:#fff}
+.signature .sec-head p{color:#a9c3d4}
+.signature .eyebrow{color:#6fe0e0}
+.sig-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:22px}
+.sig{border-radius:var(--r);overflow:hidden;display:grid;grid-template-columns:1fr;position:relative;min-height:100%}
+.sig.glaze{background:var(--navy);border:1px solid rgba(255,255,255,.12)}
+.sig.spray{background:var(--teal);color:var(--deep)}
+.sig .img{aspect-ratio:16/9;background:linear-gradient(150deg,var(--blue),var(--teal));overflow:hidden}
+.sig .img img{width:100%;height:100%;object-fit:cover}
+.sig .body{padding:30px 32px 34px}
+.sig h3{font-size:clamp(1.7rem,2.8vw,2.4rem);margin-bottom:12px}
+.sig p{opacity:.92;margin-bottom:16px}
+.sig ul{list-style:none;display:grid;gap:9px;font-weight:600;font-size:.97rem}
+.sig li{display:flex;gap:10px;align-items:flex-start}
+.sig li svg{width:20px;height:20px;flex:none;margin-top:3px}
+.glaze li svg{color:var(--teal)}
+.sig .pill{position:absolute;top:18px;left:18px;z-index:2;background:#fff;color:var(--navy);border-radius:999px;padding:7px 14px;font-weight:700;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}
+.sig a.lnk{display:inline-flex;gap:8px;margin-top:20px;font-weight:700;border-bottom:2px solid currentColor;padding-bottom:2px}
+
+/* walkthrough + qa */
+.walk{padding:110px 0;background:#fff}
+.walk .wrap{display:grid;grid-template-columns:.95fr 1.05fr;gap:70px;align-items:start}
+.doc{position:relative;background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:40px 38px 34px;box-shadow:0 30px 50px -34px rgba(6,41,74,.4);transform:rotate(-1.2deg)}
+.doc::before{content:"";position:absolute;top:-14px;left:50%;width:130px;height:30px;margin-left:-65px;background:rgba(0,168,168,.35);transform:rotate(2deg)}
+.doc .hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--navy);padding-bottom:12px;margin-bottom:8px}
+.doc .hd b{font-family:var(--head);font-size:1.35rem;color:var(--navy)}
+.doc .hd span{font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.doc ol{list-style:none;counter-reset:s}
+.doc li{counter-increment:s;display:grid;grid-template-columns:42px 1fr;gap:4px 12px;padding:18px 0;border-bottom:1px dashed #b9cbd6}
+.doc li::before{content:counter(s);grid-row:span 2;width:36px;height:36px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-content:center;font-family:var(--head);font-weight:800}
+.doc li b{font-family:var(--head);font-size:1.12rem;color:var(--navy)}
+.doc li span{color:var(--muted);font-size:.95rem}
+.doc .sig-line{margin-top:22px;display:flex;justify-content:space-between;align-items:end;font-size:.8rem;color:var(--muted)}
+.doc .sig-line i{display:block;width:150px;border-bottom:1.5px solid var(--navy);height:26px;font-family:var(--head);font-style:normal;color:var(--blue);font-size:1.15rem}
+.qa h2{font-size:clamp(2rem,3.8vw,3.1rem);color:var(--navy);margin:14px 0 30px}
+.chat{display:grid;gap:14px}
+.q,.a{max-width:88%;padding:16px 20px;border-radius:20px;font-size:1rem}
+.q{background:var(--mint);color:var(--navy);font-weight:700;border-bottom-left-radius:4px;justify-self:start}
+.a{background:var(--navy);color:#e4f0f7;border-bottom-right-radius:4px;justify-self:end}
+.a b{color:#6fe0e0}
+.qa .btn{margin-top:30px}
+
+/* trust */
+.trust{padding:100px 0;background:var(--paper)}
+.trust-box{display:grid;grid-template-columns:.8fr 1.2fr;border-radius:var(--r);overflow:hidden;box-shadow:0 40px 70px -40px rgba(6,41,74,.5)}
+.trust-l{background:linear-gradient(155deg,var(--blue),var(--navy));color:#fff;padding:54px 44px;position:relative;overflow:hidden}
+.trust-l::after{content:"";position:absolute;right:-60px;bottom:-40px;width:260px;height:160px;background:repeating-linear-gradient(115deg,var(--teal) 0 12px,transparent 12px 28px);opacity:.35;transform:skewX(-14deg)}
+.trust-l svg.sh{width:58px;height:58px;color:var(--teal);margin-bottom:20px}
+.trust-l h2{font-size:clamp(1.9rem,3.2vw,2.7rem);margin-bottom:16px}
+.trust-l p{color:#bcd5e5;max-width:24em}
+.trust-r{background:#fff;padding:44px 44px;display:grid;grid-template-columns:1fr 1fr;gap:0 40px;align-content:center}
+.fact{padding:20px 0;border-bottom:1px solid var(--line)}
+.fact b{font-family:var(--head);font-size:1.55rem;color:var(--blue);display:block;line-height:1.1}
+.fact span{font-size:.95rem;color:var(--muted)}
+.fact.wide{grid-column:1/-1;border-bottom:0}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+.chips span{padding:8px 14px;border-radius:999px;background:var(--mint);color:var(--navy);font-weight:600;font-size:.88rem}
+
+/* contact */
+.contact{position:relative;padding:110px 0;color:#fff;background:linear-gradient(135deg,var(--deep),var(--blue));overflow:hidden;isolation:isolate}
+.contact .bg{position:absolute;inset:0;z-index:-2}
+.contact .bg img{width:100%;height:100%;object-fit:cover}
+.contact::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(100deg,rgba(4,27,51,.96) 35%,rgba(0,88,152,.72))}
+.contact .wrap{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.contact h2{font-size:clamp(2.2rem,4.4vw,3.7rem);margin:14px 0 20px}
+.contact .eyebrow{color:#6fe0e0}
+.contact p.l{color:#bcd5e5;max-width:28em}
+.contact ul{list-style:none;margin-top:34px;display:grid;gap:18px}
+.contact li{display:flex;gap:16px;align-items:flex-start}
+.contact li .ic{width:46px;height:46px;border-radius:12px;background:rgba(0,168,168,.18);display:grid;place-content:center;flex:none}
+.contact li svg{width:22px;height:22px;color:#6fe0e0}
+.contact li small{display:block;font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:#8fb5cc;font-weight:700}
+.contact li a:hover{color:#6fe0e0}
+form.quote{background:#fff;color:var(--ink);border-radius:var(--r);padding:36px;box-shadow:0 40px 70px -30px rgba(0,0,0,.55)}
+form.quote h3{font-size:1.7rem;color:var(--navy);margin-bottom:6px}
+form.quote .hint{color:var(--muted);font-size:.93rem;margin-bottom:20px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{display:block;font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--navy);margin:0 0 6px}
+.f{margin-bottom:14px}
+input,select,textarea{width:100%;font:inherit;padding:13px 14px;border:1.5px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--teal);background:#fff;box-shadow:0 0 0 4px rgba(0,168,168,.18)}
+textarea{min-height:100px;resize:vertical}
+form.quote .btn{width:100%;justify-content:center;margin-top:6px}
+
+/* footer */
+footer{background:var(--deep);color:#a9c3d4;padding:72px 0 0;font-size:.97rem}
+.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:44px;padding-bottom:50px}
+.foot .chip{display:inline-block;background:#fff;border-radius:14px;padding:12px 18px;margin-bottom:18px}
+.foot .chip img{height:48px}
+.foot h4{font-family:var(--head);color:#fff;font-size:1.05rem;margin-bottom:16px}
+.foot ul{list-style:none;display:grid;gap:10px}
+.foot a:hover{color:#6fe0e0}
+.foot .tag{font-family:var(--head);color:#6fe0e0;font-size:1.15rem;margin-bottom:10px}
+.bottom{border-top:1px solid rgba(255,255,255,.12);padding:22px 0;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:.9rem}
+.bottom a{color:#fff;font-weight:700;border-bottom:2px solid var(--teal)}
+.bottom a:hover{color:#6fe0e0}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s ease}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}*{transition:none!important}}
+
+/* responsive */
+@media (max-width:1060px){
+  .hero .wrap,.story .wrap,.svc-grid,.walk .wrap,.contact .wrap,.sig-grid,.trust-box{grid-template-columns:1fr}
+  .hero-art{max-width:520px;margin-inline:auto;width:100%}
+  .svc-panel{display:none}
+  .svc .mimg{display:block;grid-column:2;margin-top:0;border-radius:12px;overflow:hidden;aspect-ratio:16/10;background:linear-gradient(150deg,var(--blue),var(--teal));max-height:0;opacity:0;transition:max-height .45s,opacity .35s}
+  .svc .mimg img{width:100%;height:100%;object-fit:cover}
+  li.active .svc .mimg{max-height:320px;opacity:1;margin-top:14px}
+  .foot{grid-template-columns:1fr 1fr}
+  .story-art{max-width:560px}
+  .doc{transform:none}
+}
+@media (max-width:860px){
+  nav.main{position:fixed;inset:0 0 auto 0;top:var(--hdr,112px);background:#fff;border-bottom:1px solid var(--line);padding:14px 24px 24px;display:none;box-shadow:0 30px 40px -30px rgba(4,27,51,.4)}
+  nav.main.open{display:block}
+  nav.main ul{flex-direction:column;align-items:stretch}
+  nav.main a{padding:14px}
+  .menu-btn{display:flex}
+  .head-cta{display:none}
+  .panels{flex-direction:column;height:auto}
+  .panel,.panel.open{flex:none;min-height:300px}
+  .panel p,.panel .more{max-height:none;opacity:1}
+  .topbar .right{display:none}
+}
+@media (max-width:620px){
+  body{font-size:16px}
+  .wrap{width:calc(100% - 32px)}
+  .hero{padding:40px 0 64px}
+  .hero-art{padding:0 0 30px 14px}
+  .stamp{width:96px;height:96px;right:0}
+  .stamp b{font-size:1.8rem}
+  .row{grid-template-columns:1fr}
+  .trust-r{grid-template-columns:1fr;padding:30px 26px}
+  .trust-l{padding:40px 28px}
+  .ledger b{font-size:2.3rem}
+  .quote-chip{left:0;max-width:210px}
+  .foot{grid-template-columns:1fr}
+  .doc{padding:34px 24px 28px}
+  form.quote{padding:26px 22px}
+  .q,.a{max-width:96%}
+  .sig .body{padding:24px 22px 28px}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <div class="left">
+      <a href="tel:+14035291760"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>403-529-1760</a>
+      <a href="mailto:info@cleanriteservices.ca"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>info@cleanriteservices.ca</a>
+    </div>
+    <div class="right"><span>Licensed &amp; insured · Serving Medicine Hat &amp; area</span></div>
+  </div>
+</div>
+
+<header class="site" id="hdr">
+  <div class="wrap">
+    <a class="logo" href="https://cleanriteservices.ca/" aria-label="Cleanrite Services home">
+      <img src="https://cleanriteservices.ca/wp-content/uploads/2019/01/header-logo.png" onerror="this.onerror=null;this.src='images/logo.png'" alt="Cleanrite Services, Striving for Excellence" width="212" height="80">
+    </a>
+    <nav class="main" id="nav" aria-label="Main">
+      <ul>
+        <li><a href="https://cleanriteservices.ca/">Home</a></li>
+        <li><a href="https://cleanriteservices.ca/why-cleanrite/">Why Cleanrite</a></li>
+        <li><a href="https://cleanriteservices.ca/covid-19/">COVID-19</a></li>
+        <li><a href="https://cleanriteservices.ca/our-services/">Our Services</a></li>
+        <li><a href="https://cleanriteservices.ca/blog/">Blog</a></li>
+        <li><a href="https://cleanriteservices.ca/contact-us/">Contact Us</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-primary head-cta" href="#quote">Request a Quote</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div class="rv">
+      <span class="eyebrow">Commercial cleaning · Medicine Hat, AB</span>
+      <h1>Cleaning that passes <em>inspection</em>, every visit.</h1>
+      <p class="lead">For over 25 years Cleanrite has kept Medicine Hat offices, plants and storefronts spotless. Trained crews, a written service schedule for your building, and a quality control manager who actually checks the work.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#quote">Request a Quote <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-ghost" href="tel:+14035291760">Call 403-529-1760</a>
+      </div>
+      <ul class="ticks">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="m8 12.4 2.7 2.7L16 9.5"/></svg>Equipment &amp; supplies provided</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="m8 12.4 2.7 2.7L16 9.5"/></svg>Insured &amp; bonded cleaners</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="m8 12.4 2.7 2.7L16 9.5"/></svg>Flexible schedules</li>
+      </ul>
+    </div>
+    <div class="hero-art rv">
+      <div class="swoosh" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="frame">
+        <img src="images/hero-office.jpg" alt="Cleanrite cleaner finishing a bright Medicine Hat office" onerror="this.remove()">
+      </div>
+      <div class="stamp" aria-hidden="true"><div><b>25+</b><br><span>Years in<br>Medicine Hat</span></div></div>
+      <div class="report" aria-label="Sample quality inspection">
+        <h4>Quality inspection <span>Passed</span></h4>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Restrooms disinfected</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Desks &amp; lunchroom sanitized</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Floors &amp; carpets finished</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Building locked up safely</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTORS -->
+<section class="sectors" id="sectors">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <span class="eyebrow">Who we clean for</span>
+        <h2>From one small office to a whole plant floor.</h2>
+      </div>
+      <p>Every building has its own rhythm. Pick the closest match and we will tailor the schedule, the crew and the equipment around it.</p>
+    </div>
+    <div class="panels rv" id="panels">
+      <article class="panel open" tabindex="0">
+        <img src="https://cleanriteservices.ca/wp-content/uploads/2019/03/office-cleaning-bg.jpg" alt="Clean office space" loading="lazy" onerror="this.remove()">
+        <div class="in">
+          <span class="n">01</span>
+          <h3>Office Cleaning</h3>
+          <p>Desks, lunchrooms and restrooms handled on a schedule written around your team, with food safe products on every surface.</p>
+          <a class="more" href="https://cleanriteservices.ca/our-services/#office-cleaning-services">See what is included <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+      <article class="panel" tabindex="0">
+        <img src="https://cleanriteservices.ca/wp-content/uploads/2019/03/commercial-cleaning-bg.jpg" alt="Commercial space being cleaned" loading="lazy" onerror="this.remove()">
+        <div class="in">
+          <span class="n">02</span>
+          <h3>Commercial Cleaning</h3>
+          <p>Storefronts, malls and food stores cleaned with the right gear, including ride-on floor washers sized to the job.</p>
+          <a class="more" href="https://cleanriteservices.ca/our-services/#commercial-industrial-cleaning">See what is included <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+      <article class="panel" tabindex="0">
+        <img src="https://cleanriteservices.ca/wp-content/uploads/2019/03/industrial-cleaning-bg.jpg" alt="Industrial facility cleaning" loading="lazy" onerror="this.remove()">
+        <div class="in">
+          <span class="n">03</span>
+          <h3>Industrial Cleaning</h3>
+          <p>Warehouses and plants cleaned to rigorous safety standards, with crews trained for high security and high risk sites.</p>
+          <a class="more" href="https://cleanriteservices.ca/our-services/#commercial-industrial-cleaning">See what is included <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- STORY -->
+<section class="story" id="about">
+  <div class="wrap">
+    <div class="rv">
+      <span class="eyebrow">Why Cleanrite</span>
+      <h2>Medicine Hat's cleaning crew for over 25 years.</h2>
+      <p>We have worked some of the biggest sites in town, and we still treat a small office with the same care. Cleanrite is a licensed and insured company run by managers who put customer satisfaction and safety first.</p>
+      <p>Our crews are trained in your building before they ever clean it, so they know your policies, your security procedures and your standards. Many of them have been with us for 15 years or more.</p>
+      <div class="ledger">
+        <div><b data-count="25" data-suffix="+">25+</b><span>Years serving Medicine Hat</span></div>
+        <div><b data-count="50" data-suffix="+">50+</b><span>Trained staff on hand</span></div>
+        <div><b data-count="100" data-suffix="+">100+</b><span>Years of combined management experience</span></div>
+        <div><b data-count="15" data-suffix="+">15+</b><span>Years with us for many of our crew</span></div>
+      </div>
+    </div>
+    <div class="story-art rv">
+      <div class="photo"><img src="images/crew.jpg" alt="The Cleanrite Services crew in uniform" loading="lazy" onerror="this.remove()"></div>
+      <div class="quote-chip">Striving for Excellence.<small>Cleanrite promise</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <span class="eyebrow">What we do</span>
+        <h2>Seven ways we keep a building running.</h2>
+      </div>
+      <p>One time deep cleans or routine service, customized to your facility. Hover or tap a service to see how we handle it.</p>
+    </div>
+    <div class="svc-grid">
+      <ul class="svc-list rv" id="svcList">
+        <li class="active"><button class="svc" aria-expanded="true" data-img="images/electrostatic.jpg" data-name="Electrostatic Disinfection">
+          <span class="no">01</span><span class="t">Electrostatic Disinfection</span>
+          <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          <span class="sub">Clorox® Total 360™ coverage over, under and around surfaces.</span>
+          <span class="more">Charged droplets cling to surfaces with a force greater than gravity, so coverage is even and reaches spots that fogging or wiping can miss. Meets Health Canada requirements for emerging viral pathogens.<br><a href="https://cleanriteservices.ca/our-services/#electrostatic-disinfection-services">Learn more</a></span>
+          <span class="mimg"><img src="images/electrostatic.jpg" alt="" loading="lazy" onerror="this.remove()"></span>
+        </button></li>
+        <li><button class="svc" aria-expanded="false" data-img="https://cleanriteservices.ca/wp-content/uploads/2019/02/Carpet-Cleaning-img.jpg" data-name="Carpet Cleaning">
+          <span class="no">02</span><span class="t">Carpet Cleaning</span>
+          <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          <span class="sub">Hot water extraction or dry-fast encapsulation.</span>
+          <span class="more">Low residue, environmentally safe products. Encapsulation keeps carpets cleaner for longer and avoids the drying time of wet systems, so the space is ready to use right away. Ask about our maintenance program for high traffic areas.<br><a href="https://cleanriteservices.ca/our-services/#carpet-cleaning">Learn more</a></span>
+          <span class="mimg"><img src="https://cleanriteservices.ca/wp-content/uploads/2019/02/Carpet-Cleaning-img.jpg" alt="" loading="lazy" onerror="this.remove()"></span>
+        </button></li>
+        <li><button class="svc" aria-expanded="false" data-img="https://cleanriteservices.ca/wp-content/uploads/2019/01/Office-Cleaning-Services-img.jpg" data-name="Office Cleaning">
+          <span class="no">03</span><span class="t">Office Cleaning Services</span>
+          <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          <span class="sub">A written service schedule for your exact space.</span>
+          <span class="more">We walk your premises, build a Service Schedule with you, and our crew follows it on every visit using only Cleanrite approved products and equipment. We sanitize and disinfect every surface, every time.<br><a href="https://cleanriteservices.ca/our-services/#office-cleaning-services">Learn more</a></span>
+          <span class="mimg"><img src="https://cleanriteservices.ca/wp-content/uploads/2019/01/Office-Cleaning-Services-img.jpg" alt="" loading="lazy" onerror="this.remove()"></span>
+        </button></li>
+        <li><button class="svc" aria-expanded="false" data-img="https://cleanriteservices.ca/wp-content/uploads/2019/01/Commercial-Industrial-Cleaning-img.jpg" data-name="Commercial &amp; Industrial">
+          <span class="no">04</span><span class="t">Commercial &amp; Industrial Cleaning</span>
+          <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          <span class="sub">Big sites, big equipment, strict safety rules.</span>
+          <span class="more">Malls, food stores, warehouses and plants. We match equipment to the site and train our staff to the safety standards each one requires. High security sites are welcome, we have the experience and clearances.<br><a href="https://cleanriteservices.ca/our-services/#commercial-industrial-cleaning">Learn more</a></span>
+          <span class="mimg"><img src="https://cleanriteservices.ca/wp-content/uploads/2019/01/Commercial-Industrial-Cleaning-img.jpg" alt="" loading="lazy" onerror="this.remove()"></span>
+        </button></li>
+        <li><button class="svc" aria-expanded="false" data-img="https://cleanriteservices.ca/wp-content/uploads/2019/01/Commercial-Residential-Window-Cleaning-img.jpg" data-name="Window Cleaning">
+          <span class="no">05</span><span class="t">Window Cleaning</span>
+          <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          <span class="sub">Commercial and residential properties.</span>
+          <span class="more">Professional window cleaning for commercial and residential property, done by the same insured crew you trust inside.<br><a href="https://cleanriteservices.ca/our-services/#commercial-residential-window-cleaning">Learn more</a></span>
+          <span class="mimg"><img src="https://cleanriteservices.ca/wp-content/uploads/2019/01/Commercial-Residential-Window-Cleaning-img.jpg" alt="" loading="lazy" onerror="this.remove()"></span>
+        </button></li>
+        <li><button class="svc" aria-expanded="false" data-img="https://cleanriteservices.ca/wp-content/uploads/2019/01/Floor-Finishing-img.jpg" data-name="Floor Finishing">
+          <span class="no">06</span><span class="t">Floor Finishing</span>
+          <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          <span class="sub">Razor Glaze keeps hard floors bright.</span>
+          <span class="more">Scrubbing, stripping and waxing are always available, but our Floor Care Maintenance System keeps those costly cycles to a minimum while the wet look stays put.<br><a href="https://cleanriteservices.ca/our-services/#floor-finishing-carpet-cleaning-services">Learn more</a></span>
+          <span class="mimg"><img src="https://cleanriteservices.ca/wp-content/uploads/2019/01/Floor-Finishing-img.jpg" alt="" loading="lazy" onerror="this.remove()"></span>
+        </button></li>
+        <li><button class="svc" aria-expanded="false" data-img="https://cleanriteservices.ca/wp-content/uploads/2019/01/Move-inout-Cleaning-Services-img.jpg" data-name="Move In/Out Cleaning">
+          <span class="no">07</span><span class="t">Move in/out Cleaning</span>
+          <svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          <span class="sub">A clean exit and a clean arrival.</span>
+          <span class="more">We clean the space you are leaving and the one you are moving into, so you can focus on the move itself.<br><a href="https://cleanriteservices.ca/our-services/#move-in-out-cleaning-services">Learn more</a></span>
+          <span class="mimg"><img src="https://cleanriteservices.ca/wp-content/uploads/2019/01/Move-inout-Cleaning-Services-img.jpg" alt="" loading="lazy" onerror="this.remove()"></span>
+        </button></li>
+      </ul>
+      <aside class="svc-panel rv" aria-hidden="true">
+        <span class="tag">Included in every clean</span>
+        <figure>
+          <img id="svcImg" src="images/electrostatic.jpg" alt="" onerror="this.style.opacity=0">
+          <figcaption id="svcCap">Electrostatic Disinfection</figcaption>
+        </figure>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- SIGNATURE -->
+<section class="signature" id="signature">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <span class="eyebrow">Two things we do differently</span>
+        <h2>Our own floor system. Disinfection that reaches everywhere.</h2>
+      </div>
+      <p>Most cleaners wipe and mop. These two programs are why facility managers stay with us for years.</p>
+    </div>
+    <div class="sig-grid">
+      <article class="sig glaze rv">
+        <span class="pill">Proprietary</span>
+        <div class="img"><img src="images/razor-glaze.jpg" alt="Glossy wet-look floor finished with Razor Glaze" loading="lazy" onerror="this.remove()"></div>
+        <div class="body">
+          <h3>Razor Glaze</h3>
+          <p>Developed and named by us, our floor care solution delivers a sharp, non-slip, wet-look shine built for Alberta conditions, at a very low maintenance cost.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Your staff can walk on it immediately, no costly downtime</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Almost eliminates the messy strip and wax cycle</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Long lasting and durable through our diverse climate</li>
+          </ul>
+          <a class="lnk" href="https://cleanriteservices.ca/our-services/#floor-finishing-carpet-cleaning-services">About floor finishing</a>
+        </div>
+      </article>
+      <article class="sig spray rv">
+        <span class="pill">Clorox® Total 360™</span>
+        <div class="img"><img src="images/electrostatic.jpg" alt="Electrostatic sprayer disinfecting an office" loading="lazy" onerror="this.remove()"></div>
+        <div class="body">
+          <h3>Electrostatic disinfection</h3>
+          <p>An electrostatic sprayer charges every droplet so it wraps around surfaces and reaches the spots wiping misses. Uniform coverage for a healthier facility.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Meets Health Canada requirements for emerging viral pathogens</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Covers over, under and around surfaces</li>
+          </ul>
+          <a class="lnk" href="https://cleanriteservices.ca/covid-19/">Learn more</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- WALKTHROUGH + Q&A -->
+<section class="walk" id="process">
+  <div class="wrap">
+    <div class="doc rv" aria-label="What happens after you request a quote">
+      <div class="hd"><b>Site walkthrough report</b><span>Cleanrite Services</span></div>
+      <ol>
+        <li><b>We walk your site</b><span>Our team reviews scope, blueprints and specifications, then tours the building with your key staff to agree on your standard of clean.</span></li>
+        <li><b>You get a Service Schedule</b><span>Filled out with you and our Accounts Manager, specific to your building. Our crew carries it and follows it every visit.</span></li>
+        <li><b>We inspect our own work</b><span>Quality control managers make frequent checks at no extra cost, so nothing is left to chance.</span></li>
+      </ol>
+      <div class="sig-line"><span>Quote requested, no obligation</span><i>Cleanrite</i></div>
+    </div>
+    <div class="qa rv">
+      <span class="eyebrow">Straight answers</span>
+      <h2>Questions facility managers ask us.</h2>
+      <div class="chat">
+        <div class="q">Is it safe to eat at my desk?</div>
+        <div class="a"><b>Yes.</b> We use a food grade safe product on desks, counters and lunchroom tables, the same kind restaurants use. Put your apple down without a worry.</div>
+        <div class="q">What about cold and flu season?</div>
+        <div class="a">We do not wait for it. <b>We sanitize and disinfect every surface we clean, every time.</b></div>
+        <div class="q">And the restrooms?</div>
+        <div class="a">Counters, dispensers, receptacles, fixtures and handles are all <b>meticulously disinfected.</b> We are not shy about restrooms.</div>
+      </div>
+      <a class="btn btn-primary" href="#quote">Book your office clean</a>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<section class="trust" id="trust">
+  <div class="wrap">
+    <div class="trust-box rv">
+      <div class="trust-l">
+        <svg class="sh" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5 4 5.6v6c0 5 3.3 8.5 8 9.9 4.7-1.4 8-4.9 8-9.9v-6z"/><path d="m8.6 12 2.5 2.5 4.4-4.6"/></svg>
+        <h2>Your trust and security come first.</h2>
+        <p>We take the security of your building seriously, with policies that keep our staff safe and your business protected. Policies and references are available on request.</p>
+      </div>
+      <div class="trust-r">
+        <div class="fact"><b>$5,000,000</b><span>Liability insurance per building</span></div>
+        <div class="fact"><b>$10,000</b><span>Bond per employee, with valid WCB</span></div>
+        <div class="fact"><b>WHMIS &amp; First Aid</b><span>Training for the staff in your building</span></div>
+        <div class="fact"><b>Lock-up policy</b><span>"We keep your building safe"</span></div>
+        <div class="fact wide">
+          <span>On request:</span>
+          <div class="chips"><span>Alberta Workplace Health &amp; Safety</span><span>Alberta Work Alone Policy</span><span>Complete service schedules</span><span>References</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="quote">
+  <div class="bg"><img src="images/cta-bg.jpg" alt="" loading="lazy" onerror="this.remove()"></div>
+  <div class="wrap">
+    <div class="rv">
+      <span class="eyebrow">Request a quote</span>
+      <h2>Tell us about your building. We will come and see it.</h2>
+      <p class="l">We visit your site before we price the job, so the quote matches the space and the schedule matches your team.</p>
+      <ul>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span><div><small>Phone</small><a href="tel:+14035291760">403-529-1760</a></div></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><div><small>Email</small><a href="mailto:info@cleanriteservices.ca">info@cleanriteservices.ca</a></div></li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span><div><small>Visit</small><a href="https://goo.gl/maps/pSmPFCex54T2" target="_blank" rel="noopener">87 South West Dr SW, Medicine Hat, AB T1A 8E8</a></div></li>
+      </ul>
+    </div>
+    <form class="quote rv" id="quoteForm" novalidate>
+      <h3>Get your free quote</h3>
+      <p class="hint">Takes under a minute. We will be in touch to arrange a site visit.</p>
+      <div class="row">
+        <div class="f"><label for="n">Your name</label><input id="n" name="name" autocomplete="name" required></div>
+        <div class="f"><label for="b">Business</label><input id="b" name="business" autocomplete="organization"></div>
+      </div>
+      <div class="row">
+        <div class="f"><label for="p">Phone</label><input id="p" name="phone" type="tel" autocomplete="tel"></div>
+        <div class="f"><label for="e">Email</label><input id="e" name="email" type="email" autocomplete="email" required></div>
+      </div>
+      <div class="f"><label for="t">What do you need cleaned?</label>
+        <select id="t" name="type">
+          <option>Office</option><option>Commercial space</option><option>Industrial site</option><option>Carpet cleaning</option><option>Floor finishing</option><option>Windows</option><option>Move in/out</option><option>Electrostatic disinfection</option><option>Something else</option>
+        </select></div>
+      <div class="f"><label for="m">Tell us a bit about the space</label><textarea id="m" name="message" placeholder="Size, how often, any special requirements"></textarea></div>
+      <button class="btn btn-primary" type="submit">Send my request <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="chip" href="https://cleanriteservices.ca/"><img src="https://cleanriteservices.ca/wp-content/uploads/2019/01/header-logo.png" onerror="this.onerror=null;this.src='images/logo.png'" alt="Cleanrite Services"></a>
+        <p class="tag">Striving for Excellence.</p>
+        <p>Licensed and insured commercial cleaning in Medicine Hat and area for over 25 years.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="https://cleanriteservices.ca/">Home</a></li>
+          <li><a href="https://cleanriteservices.ca/why-cleanrite/">Why Cleanrite</a></li>
+          <li><a href="https://cleanriteservices.ca/covid-19/">COVID-19</a></li>
+          <li><a href="https://cleanriteservices.ca/our-services/">Our Services</a></li>
+          <li><a href="https://cleanriteservices.ca/blog/">Blog</a></li>
+          <li><a href="https://cleanriteservices.ca/contact-us/">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="https://cleanriteservices.ca/our-services/#electrostatic-disinfection-services">Electrostatic Disinfection</a></li>
+          <li><a href="https://cleanriteservices.ca/our-services/#carpet-cleaning">Carpet Cleaning</a></li>
+          <li><a href="https://cleanriteservices.ca/our-services/#office-cleaning-services">Office Cleaning</a></li>
+          <li><a href="https://cleanriteservices.ca/our-services/#commercial-industrial-cleaning">Commercial &amp; Industrial</a></li>
+          <li><a href="https://cleanriteservices.ca/our-services/#commercial-residential-window-cleaning">Window Cleaning</a></li>
+          <li><a href="https://cleanriteservices.ca/our-services/#floor-finishing-carpet-cleaning-services">Floor Finishing</a></li>
+          <li><a href="https://cleanriteservices.ca/our-services/#move-in-out-cleaning-services">Move in/out Cleaning</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><a href="https://goo.gl/maps/pSmPFCex54T2" target="_blank" rel="noopener">87 South West Dr SW<br>Medicine Hat, AB T1A 8E8</a></li>
+          <li><a href="tel:+14035291760">403-529-1760</a></li>
+          <li><a href="mailto:info@cleanriteservices.ca">info@cleanriteservices.ca</a></li>
+          <li><a href="#quote" style="color:#6fe0e0;font-weight:700">Request a Quote</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© <span id="yr">2026</span> Cleanrite Services. All rights reserved.</span>
+      <span>Design by <a href="https://www.dallaswebagency.us/" target="_blank" rel="noopener">Dallas Web Agency</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  /* mobile menu */
+  var btn=document.getElementById('menuBtn'),nav=document.getElementById('nav'),hdr=document.getElementById('hdr');
+  function setHdr(){document.documentElement.style.setProperty('--hdr',(hdr.getBoundingClientRect().bottom)+'px')}
+  setHdr();window.addEventListener('resize',setHdr);
+  btn.addEventListener('click',function(){
+    setHdr();
+    var o=nav.classList.toggle('open');btn.setAttribute('aria-expanded',o);
+  });
+  nav.addEventListener('click',function(e){if(e.target.tagName==='A'){nav.classList.remove('open');btn.setAttribute('aria-expanded','false')}});
+
+  /* sector panels */
+  var panels=[].slice.call(document.querySelectorAll('.panel'));
+  function openPanel(p){panels.forEach(function(x){x.classList.toggle('open',x===p)})}
+  panels.forEach(function(p){
+    p.addEventListener('mouseenter',function(){if(window.innerWidth>860)openPanel(p)});
+    p.addEventListener('focus',function(){openPanel(p)});
+    p.addEventListener('click',function(){openPanel(p)});
+  });
+
+  /* services index */
+  var items=[].slice.call(document.querySelectorAll('#svcList li'));
+  var img=document.getElementById('svcImg'),cap=document.getElementById('svcCap');
+  function activate(li){
+    items.forEach(function(x){
+      var on=x===li;x.classList.toggle('active',on);
+      x.querySelector('.svc').setAttribute('aria-expanded',on);
+    });
+    var b=li.querySelector('.svc');
+    cap.innerHTML=b.dataset.name;
+    img.style.opacity=0;
+    var src=b.dataset.img;
+    setTimeout(function(){img.onerror=function(){img.style.opacity=0};img.onload=function(){img.style.opacity=1};img.src=src},180);
+  }
+  items.forEach(function(li){
+    var b=li.querySelector('.svc');
+    b.addEventListener('click',function(){activate(li)});
+    b.addEventListener('mouseenter',function(){if(window.innerWidth>1060)activate(li)});
+    b.addEventListener('focus',function(){if(window.innerWidth>1060)activate(li)});
+  });
+
+  /* reveal + counters */
+  var els=document.querySelectorAll('.rv');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+    els.forEach(function(el){io.observe(el)});
+    var co=new IntersectionObserver(function(es){es.forEach(function(e){
+      if(!e.isIntersecting)return;co.unobserve(e.target);
+      var el=e.target,end=+el.dataset.count,suf=el.dataset.suffix||'',t0=null;
+      if(window.matchMedia('(prefers-reduced-motion:reduce)').matches){el.textContent=end+suf;return}
+      (function step(t){t0=t0||t;var k=Math.min((t-t0)/1100,1);el.textContent=Math.round(end*(1-Math.pow(1-k,3)))+suf;if(k<1)requestAnimationFrame(step)})(performance.now());
+    })},{threshold:.6});
+    document.querySelectorAll('[data-count]').forEach(function(el){co.observe(el)});
+  }else{els.forEach(function(el){el.classList.add('in')})}
+
+  /* quote form: opens the visitor's email app with the details filled in */
+  document.getElementById('quoteForm').addEventListener('submit',function(e){
+    e.preventDefault();
+    var f=e.target,g=function(n){return (f.elements[n].value||'').trim()};
+    if(!g('name')||!g('email')){alert('Please add your name and email so we can reply.');return}
+    var body='Name: '+g('name')+'\nBusiness: '+g('business')+'\nPhone: '+g('phone')+'\nEmail: '+g('email')+'\nNeeds: '+g('type')+'\n\n'+g('message');
+    window.location.href='mailto:info@cleanriteservices.ca?subject='+encodeURIComponent('Quote request'+(g('business')?' from '+g('business'):''))+'&body='+encodeURIComponent(body);
+  });
+  document.getElementById('yr').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
